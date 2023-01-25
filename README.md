@@ -1,9 +1,13 @@
 <p align="center">
- <img width="400" src="figure.png">
+ <img width="600" src="figure.png">
 </p>
 <h1 align="center">
- Efficient 3D reconstruction of Whole Slide Images in Melanoma: Optimization scheme for whole slide images registration
+ Efficient 3D reconstruction of Whole Slide Images in Melanoma
 </h1>
+
+<h2 align="center">
+Optimization scheme for whole slide images registration
+</h2>
 
 
 ## 🛠️ Installation Steps
