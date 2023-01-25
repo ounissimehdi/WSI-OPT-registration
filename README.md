@@ -10,6 +10,8 @@
 Optimization scheme for whole slide images registration
 </h2>
 
+Please cite the full paper:
+https://spie.org/medical-imaging/presentation/Efficient-3D-reconstruction-of-Whole-Slide-Images-in-Melanoma/12471-67?SSO=1
 
 ## 🛠️ Installation Steps
 
@@ -47,8 +49,6 @@ bash dependency.sh
 ```
 **Note** this will run the HE_clean.py using stage0.sh SLURM configuration then para_reg_v3.py from stage1.sh etc. SLURM configuration can be modified to suit your HPC specifications also the job array (the number of HE WSI).
 
-
-email address : daniel.racoceanu@icm-institute.org
 ```bash
 @misc{Github,
   author={J. Arslan, M. Ounissi, H. Luo, M. Lacroix, P. Dupre, P. Kumar, A. Hodgkinson, S.Dandou, R. Larive, C. Pignodel, L. Le Cam, O. Radulescu, and D. Racoceanu},
