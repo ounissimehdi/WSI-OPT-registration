@@ -53,13 +53,19 @@ bash dependency.sh
 ## 📽 Demos
 
 ### Before
-
-### After
 <p align="center">
-   <img width="256" height="256" src="registration_animation_no_ratio.gif">
-   <img width="256" height="256" src="registration_animation_ratio_corrected.gif">
+   <img width="600" src="before_registration_animation.gif">
 </p>
 
+### After (No ratio correction)
+<p align="center">
+   <img width="600" src="registration_animation_no_ratio.gif">
+</p>
+
+### After with ratio correction)
+<p align="center">
+   <img width="600" src="registration_animation_ratio_corrected.gif">
+</p>
 
 ## 🎁 Citation
 
