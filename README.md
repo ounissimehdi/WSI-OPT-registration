@@ -15,34 +15,24 @@ Optimization scheme for whole slide images registration
 
 1. Install anaconda-python (for more details please check https://docs.anaconda.com/anaconda/install/index.html)
 
-2. Clone the repository (this will take some time)
+2. Clone the repository
 
 ```bash
-git clone https://github.com/ounissimehdi/Point2Cell
+git clone https://github.com/ounissimehdi/WSI-OPT-registration
 ```
 
 3. Change the working directory
 
 ```bash
-cd Point2Cell
+cd WSI-OPT-registration
 ```
 
-4. Create the point2Cell conda environment with all the dependencies
+4. Create a conda environment with all the dependencies from the requirements file, then activate your configured Python environment:
 
 ```bash
-conda env create -f environment.yml
+conda activate YOUR_ENV
 ```
 **Note** that this project is tested on: Windows: 11, MacOS: BigSur and Lunix: Ubuntu 20.04.3 LTS.
- 
-with the last version of Pytorch ( pytorch 1.10.2:cuda 11.3 and cudnn 8.0 ) to this date.
-
-It supports GPU 😊
-
-5. Activate the point2Cell conda environment
-
-```bash
-conda activate point2Cell
-```
 
 🌟 You are all set!
 
@@ -56,5 +46,3 @@ email address : daniel.racoceanu@icm-institute.org
   url={https://github.com/ounissimehdi/Point2Cell},
 }
 ```
-
-new_dataset
