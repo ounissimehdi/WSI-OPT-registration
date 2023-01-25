@@ -37,12 +37,23 @@ conda activate YOUR_ENV
 🌟 You are all set!
 
 
+## 🕯 How to use it with HPC (SLRUM)
+
+1. Change the path to your HE images data directory in: HE_clean.py, para_reg_v3.py, reg_large.py and gif_creation.py
+
+2. Run
+```bash
+bash dependency.sh
+```
+**Note** this will run the HE_clean.py using stage0.sh SLURM configuration then para_reg_v3.py from stage1.sh etc. SLURM configuration can be modified to suit your HPC specifications also the job array (the number of HE WSI).
+
+
 email address : daniel.racoceanu@icm-institute.org
 ```bash
 @misc{Github,
-  author={Mehdi Ounissi and Daniel Racoceanu},
-  title={Point2Cell: low-shot learning for interactive biomedical image annotation. Instantiation to stain-free phase-contrast microscopy},
-  year={2022},
-  url={https://github.com/ounissimehdi/Point2Cell},
+  author={J. Arslan, M. Ounissi, H. Luo, M. Lacroix, P. Dupre, P. Kumar, A. Hodgkinson, S.Dandou, R. Larive, C. Pignodel, L. Le Cam, O. Radulescu, and D. Racoceanu},
+  title={Efficient 3D reconstruction of Whole Slide Images in Melanoma},
+  year={2023},
+  url={https://github.com/ounissimehdi/WSI-OPT-registration},
 }
 ```
