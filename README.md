@@ -62,7 +62,7 @@ bash dependency.sh
    <img width="400" src="registration_animation_no_ratio.gif">
 </p>
 
-### After with ratio correction)
+### After (with ratio correction)
 <p align="center">
    <img width="400" src="registration_animation_ratio_corrected.gif">
 </p>
