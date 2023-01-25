@@ -50,6 +50,17 @@ bash dependency.sh
 ```
 **Note** this will run the HE_clean.py using stage0.sh SLURM configuration then para_reg_v3.py from stage1.sh etc. SLURM configuration can be modified to suit your HPC specifications also the job array (the number of HE WSI).
 
+## 📽 Demos
+
+### Before
+
+### After
+<p align="center">
+   <img width="256" height="256" src="registration_animation_no_ratio.gif">
+   <img width="256" height="256" src="registration_animation_ratio_corrected.gif">
+</p>
+
+
 ## 🎁 Citation
 
 ```bash
