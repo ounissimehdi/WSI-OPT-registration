@@ -1,15 +1,12 @@
 <p align="center">
- <img width="400" src="./demo/point2Cell.png">
+ <img width="400" src="figure.png">
 </p>
 <h1 align="center">
  Point2Cell:
  
- low-shot learning for interactive biomedical image annotation. Instantiation to stain-free phase-contrast microscopy 
+ Efficient 3D reconstruction of Whole Slide Images in Melanoma: Optimization scheme for whole slide images registration
 </h1>
-<p align="center">
-   <img width="256" height="256" src="./demo/microglial_cells_demo_1024.gif">
-   <img width="256" height="256" src="./demo/hela_demo_1024.gif">
-</p>
+
 
 ## 🛠️ Installation Steps
 
