@@ -3,11 +3,9 @@
 </p>
 <h1 align="center">
  Efficient 3D reconstruction of Whole Slide Images in Melanoma
-</h1>
 
-<h2 align="center">
 Optimization scheme for whole slide images registration
-</h2>
+</h1>
 
 
 ## 🛠️ Installation Steps
