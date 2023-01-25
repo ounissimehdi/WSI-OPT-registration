@@ -2,8 +2,6 @@
  <img width="400" src="figure.png">
 </p>
 <h1 align="center">
- Point2Cell:
- 
  Efficient 3D reconstruction of Whole Slide Images in Melanoma: Optimization scheme for whole slide images registration
 </h1>
 
