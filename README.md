@@ -10,8 +10,9 @@
 Optimization scheme for whole slide images registration
 </h2>
 
-Please cite the full paper:
-https://spie.org/medical-imaging/presentation/Efficient-3D-reconstruction-of-Whole-Slide-Images-in-Melanoma/12471-67?SSO=1
+The full paper can be found on the follwing link: https://hal.science/hal-03834014.
+
+Thank you in advance for citing the paper and the GitHub repository.
 
 ## 🛠️ Installation Steps
 
@@ -55,5 +56,20 @@ bash dependency.sh
   title={Efficient 3D reconstruction of Whole Slide Images in Melanoma},
   year={2023},
   url={https://github.com/ounissimehdi/WSI-OPT-registration},
+}
+```
+```bash
+@inproceedings{arslan:hal-03834014,
+  TITLE = {{Efficient 3D reconstruction of Whole Slide Images in Melanoma}},
+  AUTHOR = {Arslan, Janan and Ounissi, Mehdi and Luo, Haocheng and Lacroix, Matthieu and Dupr{\'e}, Pierrick and Kumar, Pawan and Hodgkinson, Arran and Dandou, Sarah and Larive, Romain M and Pignodel, Christine and Le~cam, Laurent and Racoceanu, Daniel and Radulescu, Ovidiu},
+  URL = {https://hal.science/hal-03834014},
+  BOOKTITLE = {{SPIE Medical Imaging 2023}},
+  ADDRESS = {San Diego, California, United States},
+  YEAR = {2023},
+  MONTH = Feb,
+  KEYWORDS = {cutaneous melanoma ; whole slide images ; hematoxylin and eosin ; 3D reconstruction ; vascular reconstruction ; personalized medicine},
+  PDF = {https://hal.science/hal-03834014/file/abstract_submission.pdf},
+  HAL_ID = {hal-03834014},
+  HAL_VERSION = {v1},
 }
 ```
