@@ -169,9 +169,9 @@ def compute_tf(ref_gray, flo_gray):
 
 def main_registration(image_id):
 
-    source_folder = os.path.join('..', 'clean_dataset')
+    source_folder = os.path.join('..', 'HE','clean_dataset')
 
-    output_path = os.path.join('..','PAR_images_scale_'+str(scale))                #  path for input images     
+    output_path = os.path.join('..', 'HE','PAR_images_scale_'+str(scale))                #  path for input images     
     os.makedirs(output_path, exist_ok = True)        
 
     files = natsorted(glob(os.path.join(source_folder, '*.tif')))
@@ -204,7 +204,7 @@ def main_registration(image_id):
     list_tf.append(tmp_list_tf)
 
     df_tfs = pd.DataFrame(list_tf, columns =['filename', 'time', 'xx', 'xy', 'yx', 'yy', 'X', 'Y'])
-    df_tfs.to_csv(os.path.join(output_path, 'tf_results'+str(image_id)+'.csv'), index=False)
+    df_tfs.to_csv(os.path.join(output_path, str(image_id)+'.csv'), index=False)
 
     
     # return df_tfs
