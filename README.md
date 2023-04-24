@@ -50,6 +50,38 @@ bash dependency.sh
 ```
 **Note** this will run the HE_clean.py using stage0.sh SLURM configuration then para_reg_v3.py from stage1.sh etc. SLURM configuration can be modified to suit your HPC specifications also the job array (the number of HE WSI).
 
+### More details:
+
+For the registration, to change the path to the *.tif files:
+
+HE_clean.py: lines 9-10
+para_reg_c3.py: lines 172-174
+reg_large.py: lines 84, 91, 119
+gif_creation: lines 9
+
+The default setting used is to put all HE in a folder:
+```bash
+/path_to_your_dir/HE/HE_reg_dataset/YOUR.tif
+/path_to_your_dir/HE/HE_dataset/YOUR.tif
+```
+This will be created by HE_clean.py:
+```bash
+/path_to_your_dir/HE/clean_dataset/YOUR.tif
+```
+This will be created by para_reg_v3.py:
+```bash
+/path_to_your_dir/HE/PAR_images_scale_(scale"between 10 and 100)/YOUR.csv
+```
+This will be created by reg_large.py:
+```bash
+/path_to_your_dir/HE/estimated_para_images_10to100/YOUR.csv
+/path_to_your_dir/HE/estimated_para_images_10to100/YOUR.tif
+/path_to_your_dir/HE/PAR_images_scale_'+str(scale)/YOUR.tif
+```
+To run all in one line in the cluster (keeping in mind that the code is on /path_to_your_dir/WSI-OPT-registration/YOUR.py) use:
+```bash
+bash dependency.sh
+```
 ## 📽 Demos
 
 ### Before
