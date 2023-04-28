@@ -1,9 +1,10 @@
 matplotlib==3.4.3
-numpy~> 1.13.1
+numpy==1.19.2
 opencv_python==4.5.5.64
+numba==0.51.2
 pandas==1.4.2
 piq==0.7.0
-scipy==1.9.1
+scipy==1.5.2
 sympy==1.11.1
 torch~> 1.22
 tqdm==4.62.1
